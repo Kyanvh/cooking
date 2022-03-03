@@ -1,0 +1,106 @@
+body {
+  color: #fff;
+  background-color:#333;
+  font-family: "Architects Daughter", cursive;
+  font-weight: normal;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+.box-1 {
+  background-color: #fff;
+  color: #1b1a19;
+  padding-top: 0;
+  padding-right: 20px;
+  padding-bottom: 1px;
+  padding-left: 20px;
+  padding: 0 20px 1px 20px;
+}
+
+.box-2 {
+  background-color: #fff;
+  color: #1b1a19;
+  padding: 0 20px 1px 20px;
+}
+
+.box-3 {
+  background-color: #fff;
+  color: #1b1a19;
+  padding: 0 20px 1px 20px;
+}
+
+.box-4 {
+  background-color: #fff;
+  color: #1b1a19;
+  padding: 0 20px 1px 20px;
+}
+
+header li {
+  list-style: none;
+  padding: 0;
+  display: inline;
+}
+
+.black-border {
+  border: 3px solid black;
+}
+
+.purple-border {
+  border: 3px solid purple;
+}
+
+.stamp {
+  width: 500px;
+  height: 414px;
+  background: #fff url(foto_boulderen.jpg) no-repeat;
+  border: 12px dashed #1b1a19;
+}
+.stamp img {
+  color: #fff;
+  margin: 10px 10px 0 0;
+  font: bold 60px Georgia, "Times New Roman", Times, Serif;
+  text-align: right;
+}
+
+/* media queries */
+
+@media screen and (max-width: 900px) {
+  body {
+    background-color:blue;
+    color:white;
+    line-height:2;
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+      background-color:red;
+      color:blue;
+      line-height:1.5;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+      background-color:green;
+    color:purple;
+    line-height:1;
+      font-size: 10px;
+  }
+}

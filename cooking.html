@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Recipes ideas</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <nav>
+            <a href="index.html" target="_blank">Home</a>
+        </nav>
+    </header>
+    <body>
+        <form name="recipe_ideas" method="POST" data-netlify="true">
+            <p>
+                <label>Name: <input type="text" name="name"></label>
+            </p>
+            <p>
+                <label>Email: <input type="email" name="email"></label>
+            </p>
+            <p>
+                <label>Phone number: <input type="tel" name="phone_number"></label>
+            </p>
+            <p>
+                <label>Age: <input type="date" name="age"></label>
+            </p>
+            <p>
+                <label>gender: </label>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="other"> Other 
+            </p>
+            <p>
+                <label>Favorite cuisine: </label>
+                <label>French <input type="checkbox" name="french"></label>
+                <label>Italian <input type="checkbox" name="italian"></label>
+                <label>Spanish <input type="checkbox" name="spanish"></label>
+                <label>Arabic <input type="checkbox" name="arabic"></label>
+            </p>
+            <p>
+                <label>Favorite apron color: <input type="color" name="Favorite_apron_color"></label>
+            </p>
+            <p>
+                <label>Biography: </label>
+            </p>
+            <p>    
+                <textarea rows="10" cols="50" name="biography"></textarea>
+            </p>
+            <p>
+                <label>Upload your latest recipe: <input type="file" name="upload_your_latest_recipe"></label>
+            </p>
+            <p>
+                <label>URL to recipe website: <input type="url" name="URL_to _recpe_website"></label>
+            </p>
+            <p>
+                <input type="reset" name="reset">
+            </p>
+            <p>
+                <input type="submit" name="submit">
+            </p>
+        </form>
+    </body>
+</html>
